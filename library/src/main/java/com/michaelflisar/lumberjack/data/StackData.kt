@@ -102,6 +102,6 @@ class StackData(
     }
 
     private fun getSimpleClassName(className: String): String {
-        return className.substring(className.lastIndexOf('.') + 1)
+        return className
     }
 }
