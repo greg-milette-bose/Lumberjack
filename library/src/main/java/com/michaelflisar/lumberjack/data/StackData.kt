@@ -102,6 +102,7 @@ class StackData(
     }
 
     private fun getSimpleClassName(className: String): String {
-        return className
+        // Greg added @@ to indentify our class name so we can filter out other mentions
+        return "@@$className"
     }
 }

@@ -31,6 +31,7 @@ class ConsoleTree(
             return
         }
 
+        // Greg note: it's possible this messes up spacing
         // Split by line, then ensure each line can fit into Log's maximum length.
         var i = 0
         val length = fullMessage.length
