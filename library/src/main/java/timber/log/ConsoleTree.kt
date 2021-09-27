@@ -50,7 +50,7 @@ class ConsoleTree(
 
     // tag is logged anyways, so we do NOT add it to the message!
     // Greg: Added a trim, then space here to keep the spacing consistent
-    override fun formatLine(tag: String?, message: String) = " ${message.trim()}"
+    override fun formatLine(tag: String?, message: String) = " $message"
 
     @SuppressLint("LogNotTimber")
     private fun logLine(priority: Int, tag: String?, message: String) {
